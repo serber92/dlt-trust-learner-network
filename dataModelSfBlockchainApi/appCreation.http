@@ -1,0 +1,9 @@
+POST https://dev-node.blockchain.sfdc.sh/services/app HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer eyJhdWQiOiJTYWxlc2ZvcmNlQmxvY2tjaGFpbiIsImtpZCI6IlNhbGVzZm9yY2VCbG9ja2NoYWluIiwidHlwIjoiSldUIiwiYWxnIjoiSFMyNTYifQ.eyJzY29wZSI6ImFkbWluIiwiY2xpZW50X2lkIjoiYWRtaW4iLCJhdWQiOiJTYWxlc2ZvcmNlQmxvY2tjaGFpbiIsImV4cCI6MTU4NTU5MTg0NCwiaWF0IjoxNTg1NTkxNzI0LCJpc3MiOiJCQ1AifQ.-WoAMMvVPhiKLARHVbCqIorq8ltNWeTTA6RijYzmiVA
+Content-Type: text/plain
+
+{
+    "namespace": "J0QQ",
+    "name": "Trust Learner Network"
+}

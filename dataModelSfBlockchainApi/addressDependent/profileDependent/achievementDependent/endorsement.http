@@ -1,0 +1,64 @@
+POST https://dev-node.blockchain.sfdc.sh/services/definition/J0QQ HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer eyJhdWQiOiJTYWxlc2ZvcmNlQmxvY2tjaGFpbiIsImtpZCI6IlNhbGVzZm9yY2VCbG9ja2NoYWluIiwidHlwIjoiSldUIiwiYWxnIjoiSFMyNTYifQ.eyJzY29wZSI6ImFkbWluIiwiY2xpZW50X2lkIjoiYWRtaW4iLCJhdWQiOiJTYWxlc2ZvcmNlQmxvY2tjaGFpbiIsImV4cCI6MTU4NTY5NjMzMSwiaWF0IjoxNTg1Njk2MjExLCJpc3MiOiJCQ1AifQ.7WoagcprH8H0iO3AGkKXoLy-HNFK2KfND051nYoeEiY
+Content-Type: text/plain
+
+{
+    "entity_access": "PUBLIC",
+    "owner": "75e16ebb-2878-470b-82ab-e8d4c7f3eca3",
+    "entity_name": "endorsement",
+    "entity_status": "DRAFT",
+    "entity_label": "TLN Endorsement Object",
+    "field_definitions": [
+        {
+            "field_type": "RELATED_ENTITY",
+            "field_label": "Achievement ID",
+            "field_name": "achievement",
+            "related_entity": "achievement",
+            "relationship_name": "endorsement_achievement_id"
+        },
+        {
+            "field_type": "RELATED_ENTITY",
+            "field_label": "Assertion ID",
+            "field_name": "assertion",
+            "related_entity": "assertion",
+            "relationship_name": "endorsement_assertion_id"
+        },
+        {
+            "field_type": "RELATED_ENTITY",
+            "field_label": "Profile ID",
+            "field_name": "profile",
+            "related_entity": "profile",
+            "relationship_name": "endorsement_profile_id"
+        },
+        {
+            "field_type": "RELATED_ENTITY",
+            "field_label": "Claim ID",
+            "field_name": "claim",
+            "related_entity": "claim",
+            "relationship_name": "endorsement_claim_id"
+        },
+        {
+            "field_type": "DATETIME",
+            "field_label": "Issued On",
+            "field_name": "issued_on"
+        },
+        {
+            "field_type": "RELATED_ENTITY",
+            "field_label": "Issuer",
+            "field_name": "issuer",
+            "related_entity": "profile",
+            "relationship_name": "endorsement_issuer_id"
+        },
+        {
+            "field_type": "TEXT",
+            "field_label": "Revocation Reason",
+            "field_name": "revocation_reason"
+        },
+        {
+            "field_type": "BOOLEAN",
+            "field_label": "Is Endorsement Revoked?",
+            "field_name": "revoked"
+        }
+    ]
+}

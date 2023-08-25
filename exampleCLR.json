@@ -1,0 +1,89 @@
+{
+	"id": "78xx8412-3f3x-413f-x141-08b3459bcf73",
+	"type": "CLR",
+	"assertions": [
+		{
+			"id": "b17a67d9-e807-4ab3-8f53-7bbd01b5c988",
+			"term": "2017 Fall",
+			"results": [
+				{
+					"type": "LetterGrade",
+					"value": "B",
+					"alignment": {
+						"targetUrl": "https://students.asu.edu/grades",
+						"targetName": "ASU Grades and Grading Policies",
+						"frameworkName": "ASU Grades and Grading Policies",
+						"targetDescription": "Ordinarily a grade of A+, A, A-, B+, B, B-, C+, C, D, or E is given upon completion of a course, unless another grading option such as audit or pass/fail is indicated at the time of registration.Grading options cannot be changed after the close of the drop/add period."
+					}
+				}
+			],
+			"issuedOn": "2017-12-11",
+			"recipient": {
+				"id": "cb88b151-98f0-4c01-8faa-b5081a950a0d",
+				"hashed": false,
+				"identity": "1210257799"
+			},
+			"achievement": {
+				"id": "04614747-4ae0-4c90-8abd-3f8df4cc10d0",
+				"name": "Nonverbal Communication",
+				"tags": [
+					"217770688"
+				],
+				"level": "Undergraduate",
+				"issuer": {
+					"url": "https: //www.asu.edu",
+					"name": "Arizona State University",
+					"email": "registrar@asu.edu",
+					"sourcedId": "1",
+					"telephone": "480.965.3124​",
+					"description": "ASU is a comprehensive public research university, measured not by whom we exclude, but rather by whom we include and how they succeed; advancing research and discovery of public value; and assuming fundamental responsibility for the economic, social, cultural and overall health of the communities it serves."
+				},
+				"humanCode": "COM317",
+				"alignments": [
+					{
+						"targetUrl": "https: //students.asu.edu/grades",
+						"targetName": "ASU Grades and Grading Policies",
+						"frameworkName": "ASU Grades and Grading Policies",
+						"targetDescription": "Ordinarily a grade of A+, A, A-, B+, B, B-, C+, C, D, or E is given upon completion of a course, unless another grading option such as audit or pass/fail is indicated at the time of registration.Grading options cannot be changed after the close of the drop/add period."
+					}
+				],
+				"description": "Study of communication using space, time, movement, facial expression, touch, appearance, smell, environment, objects, voice, and gender/cultural variables.",
+				"fieldOfStudy": "Communication",
+				"achievementType": "Course",
+				"creditsAvailable": 3,
+				"resultDescriptions": [
+					{
+						"name": "ASU Grading Policy",
+						"type": "LetterGrade",
+						"alignment": {
+							"targetUrl": "https: //students.asu.edu/grades",
+							"targetName": "ASU Grades and Grading Policies",
+							"frameworkName": "ASU Grades and Grading Policies",
+							"targetDescription": "Ordinarily a grade of A+, A, A-, B+, B, B-, C+, C, D, or E is given upon completion of a course, unless another grading option such as audit or pass/fail is indicated at the time of registration.Grading options cannot be changed after the close of the drop/add period."
+						},
+						"resultMax": "A+",
+						"resultMin": "Z"
+					}
+				]
+			},
+			"creditsEarned": 3
+		}
+	],
+	"issuedOn": "2020-01-01",
+	"learner": {
+		"name": "Joan Paul Jones",
+		"email": "PSNoMail@asu.edu",
+		"birthdate": "1991-05-10",
+		"studentId": "1200717444",
+		"telephone": "(123) 456-7890"
+	},
+	"partial": true,
+	"publisher": {
+		"url": "https: //www.asu.edu",
+		"name": "Arizona State University",
+		"email": "registrar@asu.edu",
+		"sourcedId": "1",
+		"telephone": "480.965.3124​",
+		"description": "ASU is a comprehensive public research university, measured not by whom we exclude, but rather by whom we include and how they succeed; advancing research and discovery of public value; and assuming fundamental responsibility for the economic, social, cultural and overall health of the communities it serves."
+	}
+}

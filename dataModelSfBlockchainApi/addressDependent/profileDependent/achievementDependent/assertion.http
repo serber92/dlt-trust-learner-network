@@ -1,0 +1,88 @@
+POST https://dev-node.blockchain.sfdc.sh/services/definition/J0QQ HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer eyJhdWQiOiJTYWxlc2ZvcmNlQmxvY2tjaGFpbiIsImtpZCI6IlNhbGVzZm9yY2VCbG9ja2NoYWluIiwidHlwIjoiSldUIiwiYWxnIjoiSFMyNTYifQ.eyJzY29wZSI6ImFkbWluIiwiY2xpZW50X2lkIjoiYWRtaW4iLCJhdWQiOiJTYWxlc2ZvcmNlQmxvY2tjaGFpbiIsImV4cCI6MTU4NTY5NTA0NCwiaWF0IjoxNTg1Njk0OTI0LCJpc3MiOiJCQ1AifQ.ZgdrJK-Y4-cuYy5-lSjJxEUk_cnjtG1qQkN2V9Lw3kw
+Content-Type: text/plain
+
+{
+    "entity_access": "PUBLIC",
+    "owner": "75e16ebb-2878-470b-82ab-e8d4c7f3eca3",
+    "entity_name": "assertion",
+    "entity_status": "DRAFT",
+    "entity_label": "TLN Assertion Object",
+    "field_definitions": [
+        {
+            "field_type": "TEXT",
+            "field_label": "Assertion Type",
+            "field_name": "assertion_type"
+        },
+		{
+            "field_type": "RELATED_ENTITY",
+            "field_label": "Achievement ID",
+            "field_name": "achievement_id",
+            "related_entity": "achievement",
+            "relationship_name": "assertion_achievement_id"
+        },
+        {
+            "field_type": "NUMERIC",
+            "field_label": "Credits Earned",
+            "field_name": "credits_earned"
+        },
+        {
+            "field_type": "DATETIME",
+            "field_label": "End Date",
+            "field_name": "end_date"
+        },
+        {
+            "field_type": "TEXT",
+            "field_label": "Image Link",
+            "field_name": "image"
+        },
+        {
+            "field_type": "DATETIME",
+            "field_label": "Issued On",
+            "field_name": "issued_on"
+        },
+        {
+            "field_type": "TEXT",
+            "field_label": "License Number",
+            "field_name": "license_number"
+        },
+        {
+            "field_type": "TEXT",
+            "field_label": "Narrative",
+            "field_name": "narrative"
+        },
+		{
+            "field_type": "RELATED_ENTITY",
+            "field_label": "Recipient ID",
+            "field_name": "recipient",
+            "related_entity": "profile",
+            "relationship_name": "recipient_id"
+        },
+        {
+            "field_type": "TEXT",
+            "field_label": "Revocation Reason",
+            "field_name": "revocation_reason"
+        },
+        {
+            "field_type": "BOOLEAN",
+            "field_label": "Assertion Revoked?",
+            "field_name": "revoked"
+        },
+        {
+            "field_type": "TEXT",
+            "field_label": "Role",
+            "field_name": "role"
+        },
+        {
+            "field_type": "DATETIME",
+            "field_label": "Start Date",
+            "field_name": "start_date"
+        },
+        {
+            "field_type": "TEXT",
+            "field_label": "Academic Term",
+            "field_name": "term"
+        }
+    ]
+}

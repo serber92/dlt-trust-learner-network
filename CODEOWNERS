@@ -1,0 +1,5 @@
+*               @ASU/trust-learner-network-writers
+CODEOWNERS      @ASU/devops-admins
+Jenkinsfile     @ASU/devops-admins @ASU/devops-infrastructure
+/terraform/     @ASU/devops-infrastructure
+/ansible/       @ASU/devops-infrastructure

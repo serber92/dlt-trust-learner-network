@@ -1,0 +1,72 @@
+POST https://dev-node.blockchain.sfdc.sh/services/definition/J0QQ HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer eyJhdWQiOiJTYWxlc2ZvcmNlQmxvY2tjaGFpbiIsImtpZCI6IlNhbGVzZm9yY2VCbG9ja2NoYWluIiwidHlwIjoiSldUIiwiYWxnIjoiSFMyNTYifQ.eyJzY29wZSI6ImFkbWluIiwiY2xpZW50X2lkIjoiYWRtaW4iLCJhdWQiOiJTYWxlc2ZvcmNlQmxvY2tjaGFpbiIsImV4cCI6MTU4NTY3MTYyNCwiaWF0IjoxNTg1NjcxNTA0LCJpc3MiOiJCQ1AifQ.J96MacMUlLcdwHi-fanGYT239_mt7W2pGFcMsmNvxa0
+Content-Type: text/plain
+
+{
+    "entity_access": "PRIVATE",
+    "owner": "75e16ebb-2878-470b-82ab-e8d4c7f3eca3",
+    "entity_name": "profile",
+    "entity_status": "DRAFT",
+    "entity_label": "TLN Profile Object",
+    "field_definitions": [
+        {
+            "field_type": "RELATED_ENTITY",
+            "field_label": "Profile Address",
+            "field_name": "address",
+            "related_entity": "address",
+            "relationship_name": "profile_address"
+        },
+        {
+            "field_type": "TEXT",
+            "field_label": "Description",
+            "field_name": "description"
+        },
+        {
+            "field_type": "TEXT",
+            "field_label": "Email Address",
+            "field_name": "email"
+        },
+        {
+            "field_type": "TEXT",
+            "field_label": "Image Link",
+            "field_name": "image"
+        },
+        {
+            "field_type": "TEXT",
+            "field_label": "Name",
+            "field_name": "name",
+            "is_name_field": true
+        },
+        {
+            "field_type": "TEXT",
+            "field_label": "Public Key",
+            "field_name": "public_key"
+        },
+        {
+            "field_type": "TEXT",
+            "field_label": "Revocation List",
+            "field_name": "revocation_list"
+        },
+        {
+            "field_type": "TEXT",
+            "field_label": "Source ID",
+            "field_name": "source_id"
+        },
+        {
+            "field_type": "TEXT",
+            "field_label": "Student ID",
+            "field_name": "student_id"
+        },
+        {
+            "field_type": "TEXT",
+            "field_label": "Phone Number",
+            "field_name": "telephone"
+        },
+        {
+            "field_type": "TEXT",
+            "field_label": "URL",
+            "field_name": "url"
+        }
+    ]
+}

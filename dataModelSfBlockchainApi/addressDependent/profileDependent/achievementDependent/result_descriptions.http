@@ -1,0 +1,27 @@
+POST https://dev-node.blockchain.sfdc.sh/services/definition/J0QQ HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer eyJhdWQiOiJTYWxlc2ZvcmNlQmxvY2tjaGFpbiIsImtpZCI6IlNhbGVzZm9yY2VCbG9ja2NoYWluIiwidHlwIjoiSldUIiwiYWxnIjoiSFMyNTYifQ.eyJzY29wZSI6ImFkbWluIiwiY2xpZW50X2lkIjoiYWRtaW4iLCJhdWQiOiJTYWxlc2ZvcmNlQmxvY2tjaGFpbiIsImV4cCI6MTU4NTY5MjAwMiwiaWF0IjoxNTg1NjkxODgyLCJpc3MiOiJCQ1AifQ.bEBLz56jgsWYlgkJ3wVaj0I-Fi_1sExPhb4YeJOAbGc
+Content-Type: text/plain
+
+{
+    "entity_access": "PUBLIC",
+    "owner": "75e16ebb-2878-470b-82ab-e8d4c7f3eca3",
+    "entity_name": "result_descriptions",
+    "entity_status": "DRAFT",
+    "entity_label": "TLN Result Descriptions Object",
+    "field_definitions": [
+        {
+            "field_type": "RELATED_ENTITY",
+            "field_label": "Result Achievement ID",
+            "field_name": "achievement_id",
+            "related_entity": "achievement",
+            "relationship_name": "achievement_result_description"
+        },
+        {
+            "field_type": "TEXT",
+            "field_label": "Result Description",
+            "field_name": "description",
+            "is_name_field": true
+        }
+    ]
+}

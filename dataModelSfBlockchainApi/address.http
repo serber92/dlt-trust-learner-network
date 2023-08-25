@@ -1,0 +1,44 @@
+POST https://dev-node.blockchain.sfdc.sh/services/app HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer eyJhdWQiOiJTYWxlc2ZvcmNlQmxvY2tjaGFpbiIsImtpZCI6IlNhbGVzZm9yY2VCbG9ja2NoYWluIiwidHlwIjoiSldUIiwiYWxnIjoiSFMyNTYifQ.eyJzY29wZSI6ImFkbWluIiwiY2xpZW50X2lkIjoiYWRtaW4iLCJhdWQiOiJTYWxlc2ZvcmNlQmxvY2tjaGFpbiIsImV4cCI6MTU4NTU5MTg0NCwiaWF0IjoxNTg1NTkxNzI0LCJpc3MiOiJCQ1AifQ.-WoAMMvVPhiKLARHVbCqIorq8ltNWeTTA6RijYzmiVA
+Content-Type: text/plain
+
+{
+    "entity_access": "PRIVATE",
+    "owner": "75e16ebb-2878-470b-82ab-e8d4c7f3eca3",
+    "entity_name": "address",
+    "entity_status": "DRAFT",
+    "entity_label": "TLN Address",
+    "field_definitions": [
+        {
+            "field_type": "TEXT",
+            "field_label": "Address Country",
+            "field_name": "address_country"
+        },
+        {
+            "field_type": "TEXT",
+            "field_label": "Address Locality",
+            "field_name": "address_locality"
+        },
+        {
+            "field_type": "TEXT",
+            "field_label": "Address Name",
+            "field_name": "adress_region"
+        },
+        {
+            "field_type": "TEXT",
+            "field_label": "Postal Code",
+            "field_name": "postal_code"
+        },
+        {
+            "field_type": "TEXT",
+            "field_label": "Post Office Box Number",
+            "field_name": "post_office_box_number"
+        },
+        {
+            "field_type": "TEXT",
+            "field_label": "Street Address",
+            "field_name": "street_address"
+        }
+    ]
+}

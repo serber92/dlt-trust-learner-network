@@ -1,0 +1,15 @@
+{
+	"sqltools.connections": [
+		{
+			"database": "TLN",
+			"dialect": "PostgreSQL",
+			"isActive": false,
+			"isConnected": false,
+			"name": "TLN Postgres",
+			"password": "TLN-B10ckchain^^^",
+			"port": 5432,
+			"server": "trust-learner-network-pilot.cdu7jxhmwlz9.us-west-1.rds.amazonaws.com",
+			"username": "postgres"
+		}
+	]
+}
